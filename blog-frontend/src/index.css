@@ -1,0 +1,19 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Add Inter font */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif; /* This sets Inter as the primary font */
+  margin: 0; /* Good to reset default browser margin */
+  -webkit-font-smoothing: antialiased; /* Improves font rendering on macOS */
+  -moz-osx-font-smoothing: grayscale; /* Improves font rendering on Firefox */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; /* This is fine for code blocks */
+}
