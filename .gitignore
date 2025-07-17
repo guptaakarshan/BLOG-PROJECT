@@ -1,0 +1,23 @@
+# Node modules for both frontend and backend
+blog-backend/node_modules/
+blog-frontend/node_modules/
+
+# Frontend build output
+blog-frontend/build/
+
+# Environment variables (if you add them later)
+.env
+*.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# VS Code specific files
+.vscode/
