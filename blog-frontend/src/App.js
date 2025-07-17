@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 
 // Base URL for our backend API
-const API_BASE_URL = "http://localhost:5001/api/posts";
+const API_BASE_URL = '/api/posts';
 
 // Main App Component
 const App = () => {
